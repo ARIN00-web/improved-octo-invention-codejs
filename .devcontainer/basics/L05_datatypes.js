@@ -21,3 +21,6 @@ let isLoggedIn = false
 
 console.log(typeof age)// to tell typeof like character of integer etc...
 //typeof undefined is undefinedv and typeof null is object
+
+
+
