@@ -20,8 +20,19 @@ console.log(myTimeStamp);
 console.log(myCreatedDate.getTime());//these give long values to get comparable values we use date.now
 console.log(Math.floor(Date.now()/1000));
 
-let newdate = new Date()
-console.log(newdate);
+let newDate = new Date()
+console.log(newDate);
+console.log(newDate.getMonth());
+console.log(newDate.getDay());
+console.log(newDate.getMonth()+1);
+
+`${newDate.getDate()} and the time`
+
+newDate.toLocaleString('default',{
+    weekday: "long",
+    
+})
+
 
 
 
