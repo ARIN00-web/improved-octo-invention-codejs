@@ -21,8 +21,24 @@ console.log(Jsuser[mysym]);//symbol accessing this way compulsion
 
 
 Jsuser.email = "hitesh@chatgpt.com"
-Object.freeze(Jsuser)
-Jsuser.email = "hi"
+//Object.freeze(Jsuser)//this doesnt let the object propagete tha values which comes after it like the next email below it
+Jsuser.email = "hitesh@microsoft.com"
+console.log(Jsuser);
+
+Jsuser.greeting = function(){
+    console.log("Hello JS user");
+
+}
+Jsuser.greetingTwo = function(){
+    console.log('Hello JS user, ${this.name}');// ${} is for giving terms in a line and this . is to give reference
+    
+
+}
+
+console.log(Jsuser.greeting());
+console.log(Jsuser.greetingTwo());
+
+
 
 
 
