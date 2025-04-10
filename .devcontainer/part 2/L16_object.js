@@ -30,7 +30,9 @@ Jsuser.greeting = function(){
 
 }
 Jsuser.greetingTwo = function(){
-    console.log('Hello JS user, ${this.name}');// ${} is for giving terms in a line and this . is to give reference
+    let date = 9;
+    console.log(`today is ${this.date}`);
+        // ${} is for giving terms in a line and this . is to give reference
     
 
 }
