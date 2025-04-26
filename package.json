@@ -1,0 +1,20 @@
+{
+  "name": "improved-octo-invention-codejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARIN00-web/improved-octo-invention-codejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ARIN00-web/improved-octo-invention-codejs/issues"
+  },
+  "homepage": "https://github.com/ARIN00-web/improved-octo-invention-codejs#readme"
+}
