@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ARIN00-web/improved-octo-invention-codejs/issues"
   },
-  "homepage": "https://github.com/ARIN00-web/improved-octo-invention-codejs#readme"
+  "homepage": "https://github.com/ARIN00-web/improved-octo-invention-codejs#readme",
+  "dependencies": {
+    "cat-me": "^1.0.3"
+  }
 }
