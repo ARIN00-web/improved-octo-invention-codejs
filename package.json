@@ -19,7 +19,9 @@
   "homepage": "https://github.com/ARIN00-web/improved-octo-invention-codejs#readme",
   "dependencies": {
     "cat-me": "^1.0.3",
+    "ejs": "^3.1.10",
     "express": "^5.1.0",
-    "http": "^0.0.1-security"
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.0"
   }
 }
