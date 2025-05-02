@@ -1,12 +1,13 @@
 const express = require('express');
 const app = express();
-
+const usermodel = require('./models/user')
 const morgan = require('morgan')
 app.use(morgan('dev'))
 
 app.use(express.json())
 app.use(express.urlencoded({exended:true}))// to get data in req.body these two are used
 app.set("view engine",'ejs')
+app.use(express.static("public"))
 
 // app.get('/', (req, res) => {
 //     res.render('index');
