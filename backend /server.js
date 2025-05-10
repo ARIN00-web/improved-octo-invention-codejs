@@ -12,8 +12,10 @@ const server = http.createServer((req,res) => {
     if(req.url == "/profile"){
         res.end("the profile page")
     }
+   // we use nodemon to solve the problem of runninh the code again and again it automatically restarts js file again and again
 
 
 })
 
 server.listen(3000 )
+
