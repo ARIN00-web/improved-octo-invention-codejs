@@ -1,16 +1,11 @@
 const mongoose = require('mongoose')
+const bcrypt = require('bcrypt');
 
 const userSchema = new mongoose.Schema({
-    username: String,
+    name: String,
     email: String,
     password: String,
-    age: Number,
-    gender:{
-        type: String,
-        enum: ['male', 'female']
-    }
-
-   
+    
 })
 
 const usermodel = mongoose.model('user', userSchema)

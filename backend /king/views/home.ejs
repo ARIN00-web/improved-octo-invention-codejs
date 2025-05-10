@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+        .navbar {
+            background-color: #fff;
+            border-bottom: 1px solid #dbdbdb;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar img {
+            height: 40px;
+        }
+        .navbar input {
+            border: 1px solid #dbdbdb;
+            border-radius: 3px;
+            padding: 5px 10px;
+            width: 200px;
+        }
+        .navbar .icons img {
+            height: 25px;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+        .main-content {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .posts {
+            width: 60%;
+            max-width: 600px;
+        }
+        .post {
+            background-color: #fff;
+            border: 1px solid #dbdbdb;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .post-header, .post-footer {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .post-header img, .post-footer img {
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .post-image {
+            width: 100%;
+            height: auto;
+        }
+        .sidebar {
+            width: 30%;
+            max-width: 300px;
+            margin-left: 20px;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile img {
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+        <input type="text" placeholder="Search">
+        <div class="icons">
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/home.png" alt="Home">
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/like.png" alt="Like">
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/user.png" alt="Profile">
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="posts">
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://via.placeholder.com/30" alt="User">
+                    <span>username</span>
+                </div>
+                <img src="https://via.placeholder.com/600x400" alt="Post" class="post-image">
+                <div class="post-footer">
+                    <img src="https://img.icons8.com/ios-glyphs/30/000000/like.png" alt="Like">
+                    <img src="https://img.icons8.com/ios-glyphs/30/000000/comment.png" alt="Comment">
+                    <img src="https://img.icons8.com/ios-glyphs/30/000000/share.png" alt="Share">
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="profile">
+                <img src="https://via.placeholder.com/50" alt="Profile">
+                <div>
+                    <strong>username</strong><br>
+                    Full Name
+                </div>
+            </div>
+            <p>Suggestions for you</p>
+        </div>
+    </div>
+</body>
+</html>
